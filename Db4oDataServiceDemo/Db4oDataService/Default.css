@@ -1,0 +1,314 @@
+/* 0 BASIC TAGS */
+
+table {
+	font-size: 1em;
+}
+
+thead {
+	background-color: Gray;
+	font-weight: bold;
+	color: White;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	font-family: tahoma, arial, helvetica, sans-serif;
+}
+
+pre 
+{
+	font-family: Lucida Console;
+	font-size: 8pt;
+	color: Black;
+	border: solid 1px buttonshadow;
+	padding: 4px;
+	text-align: left;
+	background-color: White;
+}
+
+button, textarea, select, input 
+{
+    font-family: Tahoma;
+    font-size: 8pt;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #bababa;
+	height: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #d32525;
+}
+
+a:visited {
+	color: #980000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #e05252;
+}
+
+a:active {
+	color: #980000;
+}
+
+body {
+	background-color: #ffffff;
+	background-image: url(images/background.gif);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 0.7em;
+	color: #666666;
+}
+
+img {
+	border-width: 0;
+}
+
+/* 1 HEADER */
+
+.header {
+	background-image: url(Images/header.gif);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 760px;
+	height: 81px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	position: absolute;
+	left: 37px;
+	top: 12px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+h2 {
+	left: 37px;
+	top: 0px;
+	font-size: 14px;
+}
+
+.menua {
+	position: absolute;
+	right: 37px;
+	top: 17px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.nav {
+	position: absolute;
+	right: 37px;
+	top: 60px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.menua a:visited, .nav a:visited {
+	color: #d32525;
+}
+
+/* 1.1 SHIM */
+
+.shim {
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+	height: 8px;
+	font-size: 0;
+}
+
+.column {
+	background-image: url(images/content-shim.gif);
+}
+
+.gradient {
+	background-image: url(images/content-shim-photo.gif);
+}
+
+.solid {
+	background-image: url(images/content-shim-none.gif);
+}
+
+/* 2 PAGE */
+
+.page {
+	background-repeat: repeat-y;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+h3 {
+	margin-top: 1.0em;
+	margin-bottom: 1.12em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h4 {
+	margin-top: 1.0em;
+	margin-bottom: 1.12em;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+/* 2.1 HOME */
+
+#home, #links {
+	background-image: url(images/body-repeat.gif);
+	position: relative;
+	width: 686px;
+	padding: 0px 37px;
+	padding-top: 1px; /* Weird Mozilla Bug */
+	padding-bottom: 40px; /* Weird Mozilla Bug */
+}
+
+#sidebar {
+	float: left;
+	width: 214px;
+	height: 100%;
+}
+
+#content {
+	margin-left: 256px;
+}
+
+#links h4 {
+	margin-top: 0;
+	border-top: 1px solid #bababa;
+	padding-top: 1.0em;
+	position: absolute;
+	left: 37px;
+	width: 214px;
+}
+
+dl {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top: 1px solid #bababa;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	position: relative;
+}
+
+dt {
+	position: absolute;
+	left: 0;
+	margin-top: 4px;
+}
+
+dd {
+	margin-left: 150px;
+	margin-bottom: 4px;
+}
+
+.emptydata td {
+	padding: 50px;
+	color: #aeaeae;
+}
+
+/* 3 FOOTER */
+
+.footerbg {
+	background-image: url(images/footer-side.gif);
+	background-repeat: repeat-x;
+	width: auto;
+	height: 75px;
+	text-align: center;
+}
+.footer {
+	background-image: url(images/footer.gif);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+	height: 75px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.menub {
+	margin: 12px auto 5px auto;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.menub a:visited {
+	color: #d32525;
+}
+
+/* DRAG DROP */
+.dragDrop ul {
+	list-style-image: none;
+}
+
+.draggableFrame .handle {
+	background: #fff url(images/gradient.gif) repeat-x;
+	cursor: move;
+	height: 15px;
+	padding-left: 5px;
+	/*position: relative;*/
+}
+
+.draggableFrame {
+	line-height: 1.2em;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.draggableBody {
+	border: 1px solid #bababa;
+	line-height: 1.4em;
+}
+
+.framed 
+{
+	border: solid 1px black;
+	background-color: White;
+}
+
+.textBoxSize 
+{
+	width: 150px;
+	height: 80px;
+}
+
+.azure
+{
+    background-color: azure;
+}
+
+.aliceblue
+{
+    background-color: aliceblue;
+}
+
+.link 
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.validator 
+{
+    color: Red;
+}
+
+#shoppingCart {
+	line-height: 1.4em;
+}
